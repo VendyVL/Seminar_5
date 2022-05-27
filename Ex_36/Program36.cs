@@ -12,7 +12,7 @@ int[] PrintArray(int[] array) // копипаста
 {
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(0, 100);
+        array[i] = new Random().Next(-99, 100);
         Console.Write(array[i] + " ");
     }
     return array;
